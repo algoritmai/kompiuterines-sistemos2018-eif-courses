@@ -23,5 +23,5 @@ import java.lang.annotation.Target;
 @interface Developer {
     String name();
     int id() default 9852;
-    int[] tasks();
+    int[] tasks() default {1, 2};
 }
