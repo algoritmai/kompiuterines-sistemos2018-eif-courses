@@ -20,12 +20,14 @@ public class Anotacijos {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
         
+       
         //Anotacijos
-        
+        System.out.println(new Anotacijos());
            
-        
+       
         
         Method methods[] = Algoritmas.class.getMethods();
         
@@ -62,5 +64,12 @@ public class Anotacijos {
     static int skaicius() throws NumberFormatException{
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Anotacijos{" + '}';
+    }
+    
+    
     
 }
