@@ -16,7 +16,7 @@
 
 void spausdinti(int);
 int dauginti();
-void suma(int a, int b);
+void sumajj(int a, int b);
 
 #endif /* STUDENT_H */
 

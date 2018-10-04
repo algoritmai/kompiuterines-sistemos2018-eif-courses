@@ -13,6 +13,6 @@ void spausdinti(int c){
 int dauginti(){
     
 }
-void suma(int a, int b){
+void sumajj(int a, int b){
     printf("suma: %d", a+b);
 }
